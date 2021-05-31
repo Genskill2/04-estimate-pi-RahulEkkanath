@@ -44,7 +44,7 @@ float num=0.0,x,y;
 for(int i=1;i<=n;i++) {
 	x=frandom();
 	y=frandom();
-	if(sqrt((x*x)+(y*y))<1) {
+	if(sqrt((x*x)+(y*y))<=1) {
 	num++;
 	}
 }
